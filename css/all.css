@@ -57,8 +57,9 @@ img{
 
 body{
   font-size: 24px;
-  line-height: 36px;
+  line-height: 1.5;
   font-family: sans-serif;
+  font-style: italic;
 }
 
 .wrap{
@@ -102,10 +103,6 @@ body{
   text-align: center;
 }
 
-.text-italic{
-  font-style: italic;
-}
-
 .text-bold{
   font-weight: bold;
 }
@@ -129,6 +126,11 @@ h1{
   line-height: 106px;
 }
 
+h1 span{
+  font-size: 24px;
+  line-height: 42;
+  display: block;
+}
 .social{
   display: flex;
 }
@@ -231,6 +233,11 @@ h1{
 
 .workList .photoConcept{
   width: 588px;
+}
+
+.workList li h3{
+  font-size: 20px;
+  line-height: 42px;
 }
 
 .contact{
